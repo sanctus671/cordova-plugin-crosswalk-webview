@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="org.crosswalk.engine"
-      version="0.0.1-dev">
+      version="1.0.0">
 
     <name>Crosswalk Engine</name>
     <description>Changes the default WebView to CrossWalk</description>
