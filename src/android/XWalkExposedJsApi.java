@@ -18,12 +18,12 @@
 */
 package org.crosswalk.engine;
 
-import org.xwalk.core.JavascriptInterface;
+import android.os.Looper;
+
 import org.apache.cordova.CordovaBridge;
 import org.apache.cordova.ExposedJsApi;
 import org.json.JSONException;
-
-import android.os.Looper;
+import org.xwalk.core.JavascriptInterface;
 
 class XWalkExposedJsApi implements ExposedJsApi {
     private final CordovaBridge bridge;
